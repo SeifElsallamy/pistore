@@ -1,0 +1,1 @@
+chrome.storage.sync.set({payloads: ['<script>alert(1)</script>']});

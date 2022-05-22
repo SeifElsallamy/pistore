@@ -1,0 +1,27 @@
+{
+  "name": "pistore",
+  "description": "Store and Encrypte Payloads.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+	"default_icon": {
+      "16": "/images/pistore16.png",
+      "32": "/images/pistore32.png",
+      "48": "/images/pistore48.png",
+      "128": "/images/pistore128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/pistore16.png",
+    "32": "/images/pistore32.png",
+    "48": "/images/pistore48.png",
+    "128": "/images/pistore128.png"
+  },
+  "options_page": "options.html"
+  
+}

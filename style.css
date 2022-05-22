@@ -1,0 +1,63 @@
+.container{
+	display:block;
+	width:400px;
+	height:500px;
+	
+}
+
+button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px;
+  width:40px;
+  height:20px;
+  cursor: pointer;
+}
+
+#refresh{
+  display:block;
+  width:25px;
+  height:25px;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
+input{
+  width: 220px;
+  padding: 1px;
+  margin: 1px;
+  height:20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+div{
+	width:100%;
+	display:inline-block;
+}
+
+.rightDiv{
+	text-align:right;  
+	width:268px;
+}
+
+.leftDiv{
+	width:128px;
+	text-align:left;
+}
+
+.saveDiv{
+	text-align:right;  
+	width:396px;
+}
